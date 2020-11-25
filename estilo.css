@@ -1,5 +1,5 @@
 body {
-    background-color: #7a7a7a;
+    background-color:#b1b1b1;
     font-family: monospace;
 }
 
@@ -22,10 +22,28 @@ h2 {
     text-align: center;
     margin-bottom: 15px;
 }
+h5 {
+    color: #7a7a7a;
+    margin: auto;
+    text-transform: uppercase;
+}
 #principal {
     text-align: center;
 }
 #link {
     margin-top: 10px;
     text-align: center;
+}
+#extra {
+    background-color:#b1b1b1;
+    border: 5px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+}
+.dif {
+    background-color: #b1b1b1;
+    display: grid;
+    text-align: center;
+    margin: auto;
 }
