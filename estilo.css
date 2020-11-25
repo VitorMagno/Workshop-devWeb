@@ -1,0 +1,31 @@
+body {
+    background-color: #7a7a7a;
+    font-family: monospace;
+}
+
+div {
+    background-color: white;
+    border: 5px;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    margin: 30px;
+}
+h1 {
+    color: #ff6a28;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h2 {
+    color: #ff6a28;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#principal {
+    text-align: center;
+}
+#link {
+    margin-top: 10px;
+    text-align: center;
+}
