@@ -4,9 +4,6 @@
         <title>Receita</title>
         
         <link rel="stylesheet" href="./estilo.css"/>
-        <style>
-
-        </style>
     </head>
     <body>
         <div id="principal">
@@ -66,5 +63,35 @@
                 </ol>
         </div>
         
+        <footer>
+            <div class="footer">
+                <p id="owner"></p>
+            </div>
+            <div class="footer">
+                <p id="acesso"></p>
+            </div>    
+        </footer>
+        
+        <script> 
+            
+            document.getElementsByClassName('footer').item(0).style.backgroundColor = "#b1b1b1"
+            document.getElementsByClassName('footer').item(0).style.textAlign = "center"
+            document.getElementsByClassName('footer').item(0).style.display = "grid"
+            document.getElementsByClassName('footer').item(0).style.marginTop = "20px"
+            document.getElementsByClassName('footer').item(1).style.backgroundColor = "#b1b1b1"
+            document.getElementsByClassName('footer').item(1).style.textAlign = "center"
+            document.getElementsByClassName('footer').item(1).style.display = "grid"
+            document.getElementsByClassName('footer').item(1).style.marginBottom = "20px"
+            
+            document.getElementById('owner').innerHTML = "Criado por Vitor Magno"
+            
+            let data = Date()
+            
+            document.getElementById('acesso').innerHTML = "Acessado em: " + data
+        
+        
+        </script>
+        
     </body>
+    
 </html>
